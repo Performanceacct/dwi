@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dakota Western Insurance</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; color: #333; }
+    header { background-color: #004b8d; color: white; padding: 2rem; text-align: center; }
+    nav { background: #003366; color: white; padding: 1rem; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    section { padding: 2rem; max-width: 1000px; margin: auto; background: white; margin-top: 1rem; border-radius: 8px; }
+    .office { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1rem; }
+    .card { flex: 1; min-width: 250px; background: #e9ecef; padding: 1rem; border-radius: 8px; }
+    form { display: flex; flex-direction: column; gap: 1rem; margin-top: 1rem; }
+    input, textarea { padding: 10px; border: 1px solid #ccc; border-radius: 5px; }
+    button { background-color: #004b8d; color: white; padding: 0.75rem; border: none; border-radius: 5px; cursor: pointer; }
+    button:hover { background-color: #003366; }
+    footer { background: #004b8d; color: white; text-align: center; padding: 1rem; margin-top: 2rem; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Dakota Western Insurance</h1>
+    <p><em>"Insuring Your Future"</em></p>
+  </header>
+
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#locations">Locations</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="services">
+    <h2>Our Insurance Services</h2>
+    <ul>
+      <li>Auto Insurance</li>
+      <li>Home Insurance</li>
+      <li>Life Insurance</li>
+      <li>Commercial & Business Insurance</li>
+      <li>Farm & Ranch Insurance</li>
+    </ul>
+  </section>
+
+  <section id="locations">
+    <h2>Our Offices</h2>
+    <div class="office">
+      <div class="card">
+        <h3>Bowman, ND</h3>
+        <p>Address: [Your Bowman Address]</p>
+        <p>Phone: (XXX) XXX-XXXX</p>
+        <p>Email: contact@yourdomain.com</p>
+      </div>
+      <div class="card">
+        <h3>Scranton, ND</h3>
+        <p>Address: [Your Scranton Address]</p>
+        <p>Phone: (XXX) XXX-XXXX</p>
+        <p>Email: contact@yourdomain.com</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Get in Touch</h2>
+    <form action="https://formspree.io/f/your-form-id" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Dakota Western Insurance. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
